@@ -13,7 +13,7 @@ internal static class Program
 {
     static void Main(string[] args)
     {
-        BenchmarkRunner.Run<Benchmark>();
+        BenchmarkRunner.Run<Benchmark>(null!, args);
     }
 
     public static int SumA(int[] array)
