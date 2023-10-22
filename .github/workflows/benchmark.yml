@@ -27,7 +27,7 @@ jobs:
         run: cd MovInstructionBenchmark && dotnet run -c Release --exporters json --filter '*'
 
       - name: Store benchmark result
-        uses: github-action-benchmark/github-action-benchmark@v1
+        uses: rhysd/github-action-benchmark@v1
         with:
           tool: 'benchmarkdotnet'
           output-file-path: BenchmarkDotNet.Artifacts/results/MovInstructionBenchmark.Benchmarks-report-full-compressed.json
