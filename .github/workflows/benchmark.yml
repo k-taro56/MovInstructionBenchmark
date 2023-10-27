@@ -33,3 +33,4 @@ jobs:
           output-file-path: MovInstructionBenchmark/BenchmarkDotNet.Artifacts/results/MovInstructionBenchmark.Benchmark-report-full-compressed.json
           github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
+          benchmark-data-dir-path: ""
