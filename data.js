@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698888339015,
+  "lastUpdate": 1700245288501,
   "repoUrl": "https://github.com/k-taro56/MovInstructionBenchmark",
   "entries": {
     "Benchmark": [
@@ -336,6 +336,174 @@ window.BENCHMARK_DATA = {
             "value": 10.486525591995035,
             "unit": "ns",
             "range": "± 0.019006038002228002"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "121674121+k-taro56@users.noreply.github.com",
+            "name": "k-taro56",
+            "username": "k-taro56"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "022e278d6989797eea955c68b683b32591e8d09e",
+          "message": "Merge pull request #22 from k-taro56/feature/dotnet8\n\n.NET 8 Support",
+          "timestamp": "2023-11-18T03:10:37+09:00",
+          "tree_id": "25c2553c4cd7e1b58568bc985a43bb366d4d2a43",
+          "url": "https://github.com/k-taro56/MovInstructionBenchmark/commit/022e278d6989797eea955c68b683b32591e8d09e"
+        },
+        "date": 1700245288005,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 0)",
+            "value": 0.32705700082274586,
+            "unit": "ns",
+            "range": "± 0.01572020664457138"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 0)",
+            "value": 0.3101363144814968,
+            "unit": "ns",
+            "range": "± 0.002763502540967789"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 1)",
+            "value": 0.3250531448194614,
+            "unit": "ns",
+            "range": "± 0.002302649221739906"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 1)",
+            "value": 0.32031095822652184,
+            "unit": "ns",
+            "range": "± 0.005882574608207426"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 2)",
+            "value": 0.6229273945093154,
+            "unit": "ns",
+            "range": "± 0.0015579017460269633"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 2)",
+            "value": 0.6235597297549248,
+            "unit": "ns",
+            "range": "± 0.006042640788004491"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 3)",
+            "value": 0.9400875333410043,
+            "unit": "ns",
+            "range": "± 0.0057706072129472645"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 3)",
+            "value": 0.938496446236968,
+            "unit": "ns",
+            "range": "± 0.00845794861270406"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 4)",
+            "value": 1.32578461120526,
+            "unit": "ns",
+            "range": "± 0.006407996824144457"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 4)",
+            "value": 1.326453729399613,
+            "unit": "ns",
+            "range": "± 0.008549625425966899"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 5)",
+            "value": 1.6301259422408683,
+            "unit": "ns",
+            "range": "± 0.007225045010662747"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 5)",
+            "value": 1.6306485084018536,
+            "unit": "ns",
+            "range": "± 0.007448689515765716"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 6)",
+            "value": 1.943512849509716,
+            "unit": "ns",
+            "range": "± 0.007643302320928111"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 6)",
+            "value": 1.9431050209594625,
+            "unit": "ns",
+            "range": "± 0.0054095840666064455"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 7)",
+            "value": 2.27006696810325,
+            "unit": "ns",
+            "range": "± 0.016273707977112896"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 7)",
+            "value": 2.25059828047569,
+            "unit": "ns",
+            "range": "± 0.004287606276217857"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 8)",
+            "value": 2.590263463060061,
+            "unit": "ns",
+            "range": "± 0.019168668990046687"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 8)",
+            "value": 2.5633068789656344,
+            "unit": "ns",
+            "range": "± 0.004723859881321297"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 9)",
+            "value": 2.9455703789989154,
+            "unit": "ns",
+            "range": "± 0.01862325539008978"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 9)",
+            "value": 2.933925524353981,
+            "unit": "ns",
+            "range": "± 0.015691287874507232"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 10)",
+            "value": 3.665814660489559,
+            "unit": "ns",
+            "range": "± 0.013722232938002676"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 10)",
+            "value": 3.685400610932937,
+            "unit": "ns",
+            "range": "± 0.00658023561800661"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumA(Length: 20)",
+            "value": 10.675250846360411,
+            "unit": "ns",
+            "range": "± 0.0268350243184507"
+          },
+          {
+            "name": "MovInstructionBenchmark.Benchmark.SumB(Length: 20)",
+            "value": 10.698989002832345,
+            "unit": "ns",
+            "range": "± 0.024543807047497625"
           }
         ]
       }
